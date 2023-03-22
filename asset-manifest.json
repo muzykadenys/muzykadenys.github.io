@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b3de95a6.css",
+    "main.js": "/static/js/main.682076a3.js",
+    "static/js/738.3893611a.chunk.js": "/static/js/738.3893611a.chunk.js",
+    "static/js/372.266dfa58.chunk.js": "/static/js/372.266dfa58.chunk.js",
+    "static/js/856.f9dc2796.chunk.js": "/static/js/856.f9dc2796.chunk.js",
+    "static/js/851.3ec4753a.chunk.js": "/static/js/851.3ec4753a.chunk.js",
+    "static/js/22.3f50cc39.chunk.js": "/static/js/22.3f50cc39.chunk.js",
+    "static/js/272.c7cc604a.chunk.js": "/static/js/272.c7cc604a.chunk.js",
+    "static/js/841.e34941e1.chunk.js": "/static/js/841.e34941e1.chunk.js",
+    "static/js/186.b19a1cff.chunk.js": "/static/js/186.b19a1cff.chunk.js",
+    "static/media/MacPawFixelDisplay-Medium.ttf": "/static/media/MacPawFixelDisplay-Medium.77e66e52fee8bfa1658f.ttf",
+    "static/media/MacPawFixelDisplay-SemiBold.ttf": "/static/media/MacPawFixelDisplay-SemiBold.77fb18c2d511d38be117.ttf",
+    "static/media/MacPawFixelDisplay-Bold.ttf": "/static/media/MacPawFixelDisplay-Bold.6e8e0621da7f11a98419.ttf",
+    "static/media/MacPawFixelDisplay-ExtraBold.ttf": "/static/media/MacPawFixelDisplay-ExtraBold.9162e7b866265a33bdb4.ttf",
+    "static/media/MacPawFixelDisplay-Black.ttf": "/static/media/MacPawFixelDisplay-Black.6308c4db46d7525b5b73.ttf",
+    "static/media/MacPawFixelDisplay-Light.ttf": "/static/media/MacPawFixelDisplay-Light.fd20d2b9db974309fce2.ttf",
+    "static/media/MacPawFixelDisplay-ExtraLight.ttf": "/static/media/MacPawFixelDisplay-ExtraLight.1a1a7374bc59c0f7143e.ttf",
+    "static/media/MacPawFixelDisplay-Regular.ttf": "/static/media/MacPawFixelDisplay-Regular.dab06dc21fdf8823f003.ttf",
+    "static/media/MacPawFixelDisplay-Thin.ttf": "/static/media/MacPawFixelDisplay-Thin.92526997b7e890caa995.ttf",
+    "index.html": "/index.html",
+    "main.b3de95a6.css.map": "/static/css/main.b3de95a6.css.map",
+    "main.682076a3.js.map": "/static/js/main.682076a3.js.map",
+    "738.3893611a.chunk.js.map": "/static/js/738.3893611a.chunk.js.map",
+    "372.266dfa58.chunk.js.map": "/static/js/372.266dfa58.chunk.js.map",
+    "856.f9dc2796.chunk.js.map": "/static/js/856.f9dc2796.chunk.js.map",
+    "851.3ec4753a.chunk.js.map": "/static/js/851.3ec4753a.chunk.js.map",
+    "22.3f50cc39.chunk.js.map": "/static/js/22.3f50cc39.chunk.js.map",
+    "272.c7cc604a.chunk.js.map": "/static/js/272.c7cc604a.chunk.js.map",
+    "841.e34941e1.chunk.js.map": "/static/js/841.e34941e1.chunk.js.map",
+    "186.b19a1cff.chunk.js.map": "/static/js/186.b19a1cff.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b3de95a6.css",
+    "static/js/main.682076a3.js"
+  ]
+}
