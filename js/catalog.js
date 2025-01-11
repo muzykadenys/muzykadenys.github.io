@@ -1,5 +1,5 @@
 async function generateCardsFromJSON() {
-  const response = await fetch("cards.json");
+  const response = await fetch("../cards.json");
   const data = await response.json();
   const products = data.cards; // Access the array inside the object
 
