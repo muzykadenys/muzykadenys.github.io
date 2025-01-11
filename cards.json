@@ -7,31 +7,31 @@
       "price": "1999 PLN"
     },
     {
-      "img": "public/img/ps.webp",
+      "img": "../public/img/ps.webp",
       "title": "PS5 casino edition",
       "desc": "Build Your Ultimate PS5 Gaming Hub. Unlock incredible performance with lightning-fast load times, 4K graphics, and a library of the most popular and exciting games. Take your gaming experience to the next level with enhanced features and accessories.",
       "price": "2899 PLN"
     },
     {
-      "img": "public/img/xbox.webp",
+      "img": "../public/img/xbox.webp",
       "title": "Xbox360 casino edition",
       "desc": "Build Your Ultimate Xbox 360 Gaming Hub. Relive the classics with enhanced graphics and smooth gameplay. Customize your gaming environment and connect with friends for an unforgettable online gaming experience. The perfect addition to any gamer's collection.",
       "price": "1499 PLN"
     },
     {
-      "img": "public/img/xboxserx.webp",
+      "img": "../public/img/xboxserx.webp",
       "title": "Xbox series X casino edition",
       "desc": "Build Your Ultimate Xbox series X Gaming Hub. Relive the classics with enhanced graphics and smooth gameplay. Customize your gaming environment and connect with friends for an unforgettable online gaming experience. The perfect addition to any gamer's collection.",
       "price": "2899 PLN"
     },
     {
-      "img": "public/img/ps4.webp",
+      "img": "../public/img/ps4.webp",
       "title": "Playstation 4 casino edition",
       "desc": "Build Your Ultimate Xbox 360 Gaming Hub. Relive the classics with enhanced graphics and smooth gameplay. Customize your gaming environment and connect with friends for an unforgettable online gaming experience. The perfect addition to any gamer's collection.",
       "price": "1499 PLN"
     },
     {
-      "img": "public/img/rogconsole.webp",
+      "img": "../public/img/rogconsole.webp",
       "title": "Asus console casino edition",
       "desc": "Build Your Asus console Gaming Hub. Relive the classics with enhanced graphics and smooth gameplay. Customize your gaming environment and connect with friends for an unforgettable online gaming experience. The perfect addition to any gamer's collection.",
       "price": "2299 PLN"
