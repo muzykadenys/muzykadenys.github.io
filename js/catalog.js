@@ -17,7 +17,7 @@ async function generateCardsFromJSON() {
         `;
     card.addEventListener("click", () => {
       localStorage.setItem("product", index);
-      window.location.href = `product.html`;
+      window.location.href = `/product.html`;
     });
     container.appendChild(card);
   });
