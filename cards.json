@@ -1,7 +1,7 @@
 {
   "cards": [
     {
-      "img": "public/img/nintendo.webp",
+      "img": "../public/img/nintendo.webp",
       "title": "Nintendo casino switch",
       "desc": "Build Your Ultimate Nintendo casino switch Gaming Hub. Design your dream gaming setup with customizable features, immersive sound, and stunning visuals that bring every game to life. Experience next-level entertainment right from your home.",
       "price": "1999 PLN"
