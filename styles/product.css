@@ -1,0 +1,28 @@
+.products-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.product-wrap-main {
+  display: flex;
+  gap: 50px;
+}
+.product-card {
+  width: 300px;
+}
+
+.products-texts {
+  flex: 1;
+}
+.products-texts-title {
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 70px;
+}
+.products-texts-desc {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+}

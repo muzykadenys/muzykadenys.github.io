@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="./public/logo.webp" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Explore the latest in gaming consoles and accessories at Pristavkigamleng. Discover kasyna online, kasyno internetowe ranking, and Total Casino themed products."
+    />
+    <meta
+      name="keywords"
+      content="slot online, kasyno online, Total Casino, gaming consoles, kasyno internetowe ranking, Nintendo kasyno switch, gaming accessories, casino gaming hub, Total Casino designs"
+    />
+    <title>Pristavkigamleng - Kasyna Online & Gaming Consoles</title>
+
+    <!-- Open Graph Meta Tags -->
+    <meta
+      property="og:title"
+      content="Pristavkigamleng – Kasyna Online & Gaming Consoles"
+    />
+    <meta
+      property="og:description"
+      content="Explore kasyna online themed consoles and accessories at Pristavkigamleng. Find exclusive Total Casino and kasyno internetowe ranking products."
+    />
+    <meta
+      property="og:image"
+      content="https://pristavkigamleng.com/public/img/service.webp"
+    />
+    <meta property="og:url" content="https://pristavkigamleng.com" />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Pristavkigamleng – Kasyna Online & Gaming Consoles"
+    />
+    <meta
+      name="twitter:description"
+      content="Check out the latest gaming consoles inspired by kasyna online and Total Casino themes."
+    />
+    <meta
+      name="twitter:image"
+      content="https://pristavkigamleng.com/public/img/service.webp"
+    />
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Total Casino Nintendo Switch",
+        "image": "https://pristavkigamleng.com/public/img/nintendo.webp",
+        "description": "Exclusive Nintendo Switch inspired by kasyna online and Total Casino designs.",
+        "brand": {
+          "@type": "Brand",
+          "name": "Pristavkigamleng"
+        },
+        "offers": {
+          "@type": "Offer",
+          "priceCurrency": "PLN",
+          "price": "1999",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    </script>
+
+    <link rel="stylesheet" href="../styles/catalog.css" />
+    <link rel="stylesheet" href="styles/product.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/smCatalog.css" />
+    <link rel="stylesheet" href="styles/global.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div id="content-header" style="width: 100%"></div>
+    </header>
+
+    <div class="products-wrap">
+      <div class="product-wrap-main max-container-width-2">
+        <div class="smCatalog-card-el product-card"></div>
+
+        <div class="products-texts">
+          <p class="products-texts-title">Nintendo casino switch</p>
+          <p class="products-texts-desc">
+            Design your own city gaming hub with a unique Nintendo-themed arena
+            and a dynamic casino experience. Create a vibrant gaming zone at the
+            heart of your setup, where the thrill of multiplayer battles meets
+            the nostalgia of classic Nintendo games.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="content-footer"></div>
+    <script>
+      fetch("components/footer.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("content-footer").innerHTML = data;
+        });
+      fetch("components/header.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("content-header").innerHTML = data;
+        });
+    </script>
+
+    <script src="js/products.js"></script>
+  </body>
+</html>

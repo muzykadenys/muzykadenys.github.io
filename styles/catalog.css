@@ -1,0 +1,23 @@
+.catalog-title {
+  width: 100%;
+  text-align: center;
+  font-size: 64px;
+  font-weight: 800;
+}
+
+.catalog-wrap {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.catalog-cards {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+.catalog-el {
+  background-color: red;
+}

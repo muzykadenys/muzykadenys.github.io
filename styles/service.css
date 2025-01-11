@@ -1,0 +1,89 @@
+/* ===== Services Section ===== */
+.service-hero {
+  background: url("../public/img/bg-sony-big.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.service-hero-title {
+  width: 70%;
+  text-align: start;
+  line-height: 20px;
+}
+.service-hero-subtitle {
+  width: 70%;
+  text-align: start;
+  padding-bottom: 50px;
+}
+
+.services-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 50px 20px;
+  background-color: #ffffff;
+}
+
+.service-card {
+  width: 300px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #f8f8f8;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.service-card img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 15px;
+  object-fit: cover;
+}
+
+.service-card h3 {
+  margin: 10px 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.service-card p {
+  font-size: 1rem;
+  color: #555;
+}
+.fact-item img {
+  width: 500px;
+  height: auto;
+  border-radius: 10px;
+}
+/* ===== Responsive Design ===== */
+@media (max-width: 768px) {
+  .services-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service-card {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .service-card img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .service-card h3 {
+    font-size: 1rem;
+  }
+
+  .service-card p {
+    font-size: 0.9rem;
+  }
+}

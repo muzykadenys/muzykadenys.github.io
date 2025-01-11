@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Store</title>
+    <link rel="stylesheet" href="../styles/catalog.css" />
+    <link rel="stylesheet" href="styles/smCatalog.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/global.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div id="content-header" style="width: 100%"></div>
+    </header>
+
+    <h1 class="catalog-title">Catalog</h1>
+
+    <div class="catalog-wrap">
+      <div class="catalog-cards max-container-width-2"></div>
+    </div>
+
+    <div id="content-footer"></div>
+    <script>
+      fetch("components/footer.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("content-footer").innerHTML = data;
+        });
+      fetch("components/header.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("content-header").innerHTML = data;
+        });
+    </script>
+
+    <script src="js/catalog.js"></script>
+  </body>
+</html>

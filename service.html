@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="./public/logo.webp" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Explore the latest in gaming consoles and accessories at Pristavkigamleng. Discover kasyna online, kasyno internetowe ranking, and Total Casino themed products."
+    />
+    <meta
+      name="keywords"
+      content="slot online, kasyno online, Total Casino, gaming consoles, kasyno internetowe ranking, Nintendo kasyno switch, gaming accessories, casino gaming hub, Total Casino designs"
+    />
+    <title>Pristavkigamleng - Kasyna Online & Gaming Consoles</title>
+
+    <!-- Open Graph Meta Tags -->
+    <meta
+      property="og:title"
+      content="Pristavkigamleng – Kasyna Online & Gaming Consoles"
+    />
+    <meta
+      property="og:description"
+      content="Explore kasyna online themed consoles and accessories at Pristavkigamleng. Find exclusive Total Casino and kasyno internetowe ranking products."
+    />
+    <meta
+      property="og:image"
+      content="https://pristavkigamleng.com/public/img/service.webp"
+    />
+    <meta property="og:url" content="https://pristavkigamleng.com" />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Pristavkigamleng – Kasyna Online & Gaming Consoles"
+    />
+    <meta
+      name="twitter:description"
+      content="Check out the latest gaming consoles inspired by kasyna online and Total Casino themes."
+    />
+    <meta
+      name="twitter:image"
+      content="https://pristavkigamleng.com/public/img/service.webp"
+    />
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Total Casino Nintendo Switch",
+        "image": "https://pristavkigamleng.com/public/img/nintendo.webp",
+        "description": "Exclusive Nintendo Switch inspired by kasyna online and Total Casino designs.",
+        "brand": {
+          "@type": "Brand",
+          "name": "Pristavkigamleng"
+        },
+        "offers": {
+          "@type": "Offer",
+          "priceCurrency": "PLN",
+          "price": "1999",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    </script>
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/explain-section.css" />
+    <link rel="stylesheet" href="styles/smCatalog.css" />
+    <link rel="stylesheet" href="styles/global.css" />
+    <link rel="stylesheet" href="styles/about-us.css" />
+    <link rel="stylesheet" href="styles/service.css" />
+  </head>
+  <body>
+    <header class="header-main">
+      <div id="content-header" style="width: 100%"></div>
+    </header>
+
+    <section class="hero service-hero">
+      <div class="hero-content max-container-width">
+        <h1 class="hero-title service-hero-title">Service offer</h1>
+        <p class="service-hero-subtitle">
+          We are an e-commerce platform specializing in construction kits
+          inspired by online gaming themes.
+        </p>
+        <a class="red-button" href="catalog">Explore Our Catalog</a>
+      </div>
+    </section>
+
+    <div class="fact-about-us">
+      <div class="fact-item">
+        <img src="public/img/service.webp" />
+        <div class="rectangle">
+          <p>
+            We provide a comprehensive range of services to ensure an
+            exceptional experience for our customers. Our services include
+            expert consultations to help you choose the ideal construction set,
+            fast delivery, and continuous support even after your purchase. We
+            are committed to your satisfaction, not just with our products, but
+            also with the service we provide. Our construction sets are
+            particularly popular among fans of online gaming, including slot
+            games and online casinos, thanks to their distinctive, game-inspired
+            themes.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="services-container">
+      <div class="service-card">
+        <img src="public/img/support.webp" alt="Consultations" />
+        <h3>Consultations</h3>
+        <p>
+          We will help you choose the best construction set based on your
+          interests and needs.
+        </p>
+      </div>
+      <div class="service-card">
+        <img src="public/img/delivery.webp" alt="Fast Delivery" />
+        <h3>Fast Delivery</h3>
+        <p>We ensure quick delivery of your order directly to your home.</p>
+      </div>
+      <div class="service-card">
+        <img src="public/img/dialogue.webp" alt="Post-Purchase Support" />
+        <h3>Post-Purchase Support</h3>
+        <p>
+          We are always ready to provide assistance after purchase to address
+          any questions.
+        </p>
+      </div>
+    </div>
+
+    <div id="content-footer"></div>
+    <script>
+      fetch("components/footer.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("content-footer").innerHTML = data;
+        });
+      fetch("components/header.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("content-header").innerHTML = data;
+        });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+.explain-section {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+
+  margin-top: 70px;
+}
+
+.explain-wrap {
+  display: flex;
+  gap: 50px;
+}
+
+.explain-img {
+  height: 500px;
+}
+
+.explain-textblock {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.explain-desc {
+  font-size: 24px;
+}
+.explain-title {
+  text-align: start;
+  width: 100%;
+  line-height: 0px;
+  font-size: 46px;
+  font-weight: 800;
+}

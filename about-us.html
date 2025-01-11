@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="./public/logo.webp" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Explore the latest in gaming consoles and accessories at Pristavkigamleng. Discover kasyna online, kasyno internetowe ranking, and Total Casino themed products."
+    />
+    <meta
+      name="keywords"
+      content="slot online, kasyno online, Total Casino, gaming consoles, kasyno internetowe ranking, Nintendo kasyno switch, gaming accessories, casino gaming hub, Total Casino designs"
+    />
+    <title>Pristavkigamleng - Kasyna Online & Gaming Consoles</title>
+
+    <!-- Open Graph Meta Tags -->
+    <meta
+      property="og:title"
+      content="Pristavkigamleng – Kasyna Online & Gaming Consoles"
+    />
+    <meta
+      property="og:description"
+      content="Explore kasyna online themed consoles and accessories at Pristavkigamleng. Find exclusive Total Casino and kasyno internetowe ranking products."
+    />
+    <meta
+      property="og:image"
+      content="https://pristavkigamleng.com/public/img/service.webp"
+    />
+    <meta property="og:url" content="https://pristavkigamleng.com" />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Pristavkigamleng – Kasyna Online & Gaming Consoles"
+    />
+    <meta
+      name="twitter:description"
+      content="Check out the latest gaming consoles inspired by kasyna online and Total Casino themes."
+    />
+    <meta
+      name="twitter:image"
+      content="https://pristavkigamleng.com/public/img/service.webp"
+    />
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Total Casino Nintendo Switch",
+        "image": "https://pristavkigamleng.com/public/img/nintendo.webp",
+        "description": "Exclusive Nintendo Switch inspired by kasyna online and Total Casino designs.",
+        "brand": {
+          "@type": "Brand",
+          "name": "Pristavkigamleng"
+        },
+        "offers": {
+          "@type": "Offer",
+          "priceCurrency": "PLN",
+          "price": "1999",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    </script>
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/explain-section.css" />
+    <link rel="stylesheet" href="styles/smCatalog.css" />
+    <link rel="stylesheet" href="styles/global.css" />
+    <link rel="stylesheet" href="styles/about-us.css" />
+  </head>
+  <body>
+    <header class="header-main">
+      <div id="content-header" style="width: 100%"></div>
+    </header>
+
+    <section class="hero about-hero">
+      <div class="hero-content max-container-width">
+        <h1 class="hero-title service-hero-title">Discover us</h1>
+        <p class="service-hero-subtitle">
+          We present a diverse range of building kits featuring unique designs
+          inspired by the world of online gaming and gambling.
+        </p>
+        <a class="red-button" href="/catalog">Explore Our Catalog</a>
+      </div>
+    </section>
+
+    <div class="fact-about-us">
+      <div class="fact-item">
+        <img src="public/img/oldnintendo.webp" alt="Old Nintendo" />
+        <div class="rectangle">
+          <p>
+            Our kits capture popular themes from online casinos and slot games,
+            offering a creative and immersive experience.
+          </p>
+        </div>
+      </div>
+      <div class="fact-item">
+        <div class="rectangle">
+          <p>
+            Through extensive market research, we've recognized a growing demand
+            for themed sets that merge the fun of building with the excitement
+            of gambling games.
+          </p>
+        </div>
+        <img src="public/img/xboxx.webp" alt="Xbox" />
+      </div>
+      <div class="fact-item">
+        <img src="public/img/steamdeck.webp" alt="Old Nintendo" />
+        <div class="rectangle">
+          <p>
+            Our store caters to those looking for innovative solutions and
+            aiming to enhance their toy collections with imaginative,
+            high-quality construction kits. We offer designs that deliver hours
+            of engaging play for both kids and adults.
+          </p>
+        </div>
+      </div>
+      <div class="fact-item">
+        <div class="rectangle">
+          <p>
+            We present a diverse range of building kits featuring unique designs
+            inspired by the world of online gaming and gambling.
+          </p>
+        </div>
+        <img src="public/img/nintendoswitch.webp" alt="Xbox" />
+      </div>
+      <div class="fact-item">
+        <img src="public/img/psgame.webp" alt="Old Nintendo" />
+        <div class="rectangle">
+          <p>
+            In our store, creativity, quality, and modern trends come together,
+            delivering products that resonate with the worlds of both gaming and
+            construction.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="content-footer"></div>
+    <script>
+      fetch("components/footer.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("content-footer").innerHTML = data;
+        });
+      fetch("components/header.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("content-header").innerHTML = data;
+        });
+    </script>
+  </body>
+</html>

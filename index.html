@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="./public/logo.webp" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Explore the latest in gaming consoles and accessories at Pristavkigamleng. Discover kasyna online, kasyno internetowe ranking, and Total Casino themed products."
+    />
+    <meta
+      name="keywords"
+      content="slot online, kasyno online, Total Casino, gaming consoles, kasyno internetowe ranking, Nintendo kasyno switch, gaming accessories, casino gaming hub, Total Casino designs"
+    />
+    <title>Pristavkigamleng - Kasyna Online & Gaming Consoles</title>
+
+    <!-- Open Graph Meta Tags -->
+    <meta
+      property="og:title"
+      content="Pristavkigamleng – Kasyna Online & Gaming Consoles"
+    />
+    <meta
+      property="og:description"
+      content="Explore kasyna online themed consoles and accessories at Pristavkigamleng. Find exclusive Total Casino and kasyno internetowe ranking products."
+    />
+    <meta
+      property="og:image"
+      content="https://pristavkigamleng.com/public/img/service.webp"
+    />
+    <meta property="og:url" content="https://pristavkigamleng.com" />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Pristavkigamleng – Kasyna Online & Gaming Consoles"
+    />
+    <meta
+      name="twitter:description"
+      content="Check out the latest gaming consoles inspired by kasyna online and Total Casino themes."
+    />
+    <meta
+      name="twitter:image"
+      content="https://pristavkigamleng.com/public/img/service.webp"
+    />
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Total Casino Nintendo Switch",
+        "image": "https://pristavkigamleng.com/public/img/nintendo.webp",
+        "description": "Exclusive Nintendo Switch inspired by kasyna online and Total Casino designs.",
+        "brand": {
+          "@type": "Brand",
+          "name": "Pristavkigamleng"
+        },
+        "offers": {
+          "@type": "Offer",
+          "priceCurrency": "PLN",
+          "price": "1999",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    </script>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/explain-section.css" />
+    <link rel="stylesheet" href="styles/smCatalog.css" />
+    <link rel="stylesheet" href="styles/global.css" />
+  </head>
+
+  <body>
+    <header class="header-main">
+      <div id="content-header" style="width: 100%"></div>
+    </header>
+
+    <section class="hero">
+      <div class="hero-content">
+        <h1 class="hero-title">
+          Welcome to <br />
+          Pristavkigamleng
+        </h1>
+        <p class="hero-subtitle" style="padding-bottom: 30px">
+          Your go-to store for gaming consoles and accessories inspired by
+          kasyna online and Total Casino designs.
+        </p>
+        <a class="red-button" href="/catalog">Learn more</a>
+      </div>
+    </section>
+
+    <section class="explain-section">
+      <div class="explain-wrap max-container-width">
+        <img class="explain-img" src="public/img/boys-on-coach2.webp" />
+        <div class="explain-textblock">
+          <h3 class="explain-title">About Us</h3>
+          <p class="explain-desc">
+            Welcome to Pristavkigamleng, where gaming meets innovation! We offer
+            a wide selection of gaming consoles, accessories, and themed
+            products. After extensive market analysis, we discovered a rising
+            trend in kasyna online and Total Casino inspired designs. Our store
+            blends traditional gaming gear with unique kasyno internetowe
+            ranking elements, ensuring a fresh experience for every gaming
+            enthusiast and collector.
+          </p>
+          <a class="red-button" href="about-us">Learn more</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="smCatalog">
+      <div class="smCatalog-wrap max-container-width-2">
+        <h3 class="smCatalog-title">Our Catalog</h3>
+        <p class="smCatalog-desc">
+          Discover exclusive Total Casino gaming consoles and accessories.
+          Browse through our unique catalog inspired by kasyna online and kasyno
+          internetowe ranking trends.
+        </p>
+
+        <div class="smCatalog-cards catalog-cards-small">
+          <div class="smCatalog-card-el">
+            <img
+              class="smCatalog-card-el-img"
+              src="public/img/nintendo.webp"
+              alt="Total Casino Nintendo"
+            />
+            <p class="smCatalog-card-el-title">Total Casino Nintendo Switch</p>
+            <p class="smCatalog-card-el-desc">
+              Build your ultimate Nintendo gaming hub with Total Casino designs.
+            </p>
+            <p class="smCatalog-card-el-price">1999 PLN</p>
+          </div>
+        </div>
+
+        <a class="red-button" href="/catalog">See more</a>
+      </div>
+    </section>
+
+    <section class="explain-section">
+      <div
+        class="explain-wrap max-container-width"
+        style="flex-direction: row-reverse"
+      >
+        <img class="explain-img" src="public/img/services.webp" />
+        <div class="explain-textblock">
+          <h3 class="explain-title">Our Services</h3>
+          <p class="explain-desc">
+            We provide comprehensive support and services tailored to fans of
+            kasyna online and Total Casino. From helping you pick the right
+            kasyno internetowe ranking accessories to ensuring quick and secure
+            deliveries, our goal is to enhance your shopping experience.
+          </p>
+          <a class="red-button" href="service">Learn more</a>
+        </div>
+      </div>
+    </section>
+
+    <div id="content"></div>
+    <script>
+      fetch("components/footer.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("content").innerHTML = data;
+        });
+      fetch("components/header.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("content-header").innerHTML = data;
+        });
+    </script>
+
+    <script src="js/catalog-small.js"></script>
+  </body>
+</html>
